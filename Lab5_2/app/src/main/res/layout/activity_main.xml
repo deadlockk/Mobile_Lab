@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facto Thread"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/eT"
+        android:hint="n"
+        android:gravity="center"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV1" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tV1"
+        android:text="CALCULATE"/>
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="n n-1 n-2 ... = ?"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
